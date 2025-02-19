@@ -28,7 +28,7 @@ git clone https://github.com/alexttg/IP-Switch.git
 
 ```
 
-2. 创建环境变量
+2. 创建运行环境
 
 ```shell
 python -m venv venv
