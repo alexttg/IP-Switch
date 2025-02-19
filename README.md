@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## 配置
 
-1. 创建配置文件：
+1. 下载：
 
 ```shell
 git clone https://github.com/alexttg/IP-Switch.git
