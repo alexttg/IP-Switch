@@ -24,8 +24,7 @@ pip install -r requirements.txt
 1. 创建配置文件：
 
 ```shell
-git clone https://github.com/your-username/your-repo-name.git
-
+git clone https://github.com/alexttg/IP-Switch.git
 ```
 
 2. 创建环境变量
