@@ -25,6 +25,7 @@ pip install -r requirements.txt
 
 ```shell
 git clone https://github.com/alexttg/IP-Switch.git
+
 ```
 
 2. 创建环境变量
