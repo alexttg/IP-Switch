@@ -5,7 +5,20 @@
 ip池站点
 https://sch.shanchendaili.com/
 
+## 实现思路
+### 拦截流量
 
+方法 1：使用 macOS SystemConfiguration API 修改系统代理（适用于 HTTP 代理）
+方法 2：创建 TUN 设备，拦截所有 TCP/UDP 流量（适用于全局代理）
+解析 & 处理流量
+
+### 解析 DNS 以确定目标 IP
+读取规则（如 GFWList、白名单等）
+决定流量是否 直连 还是 走代理
+转发流量
+
+### 直连流量直接回放
+代理流量通过 SOCKS5 / HTTP 代理服务器转发
 
 ## 框架要求
 
